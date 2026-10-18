@@ -26,9 +26,17 @@ if ($existing) {
     if (-not (Get-Command curl.exe -ErrorAction SilentlyContinue)) {
         throw "curl.exe not found. Windows 10+ ships it by default."
     }
-    & curl.exe -L --retry 10 --retry-delay 5 --retry-all-errors --progress-bar -o $zip `
+    if (Test-Path $zip) {
+        Write-Host ("  Found a partial download ({0:N0} MB) — resuming." -f ((Get-Item $zip).Length / 1MB))
+    }
+    # -C - resumes a partial download; --speed-limit/--speed-time abort a stalled
+    # connection instead of hanging forever, then --retry picks it back up.
+    & curl.exe -L -C - --retry 20 --retry-delay 10 --retry-all-errors `
+        --speed-limit 10240 --speed-time 90 --progress-bar -o $zip `
         "https://github.com/ollama/ollama/releases/latest/download/ollama-windows-amd64.zip"
-    if (-not (Test-Path $zip)) { throw "Download failed." }
+    if ($LASTEXITCODE -ne 0 -or -not (Test-Path $zip)) {
+        throw "Download failed (curl exit $LASTEXITCODE). Just re-run this script — it resumes from where it stopped."
+    }
 
     Write-Host "→ Extracting to $InstallDir ..."
     New-Item -ItemType Directory -Force -Path $InstallDir | Out-Null
