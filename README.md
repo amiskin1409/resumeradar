@@ -205,4 +205,4 @@ Interactive docs at **http://localhost:8000/docs** 🎉
 
 ## 📄 License
 
-[MIT](LICENSE) — built by [Your Name]. Mock interviews via [incruit.online](https://incruit.online).
+[MIT](LICENSE) — built by [Anmol Miskin](https://github.com/amiskin1409). Mock interviews via [incruit.online](https://incruit.online).
