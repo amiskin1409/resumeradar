@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Database & runtime data
+*.db
+*.sqlite3
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/data/kaggle_raw/*
+!backend/data/kaggle_raw/.gitkeep
+backend/data/resumeradar.db
+
+# Node / Frontend
+node_modules/
+dist/
+.vite/
+*.local
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test artifacts
+backend/test_resume.pdf
