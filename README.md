@@ -65,6 +65,13 @@ coaching summaries, roadmap phrasing, project ideas — and can be swapped or up
 ### Prerequisites
 - **Python 3.11+** · **Node 18+** · (optional) [Ollama](https://ollama.com) for AI features
 
+### ⚡ Shortcuts (Windows)
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\start_dev.ps1       # start backend + frontend together
+powershell -ExecutionPolicy Bypass -File scripts\setup_ollama.ps1   # download, run & pull a model (no admin needed)
+```
+
 ### 1️⃣ Backend
 ```bash
 cd backend
