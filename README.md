@@ -95,6 +95,27 @@ ollama pull qwen2.5:3b      # fast on CPU (recommended)
 The app detects Ollama automatically and upgrades summaries, roadmaps, projects and
 interview prep to model-generated versions via the ✨ *Enhance with private AI* button.
 
+<details>
+<summary><strong>No admin rights? Use the portable build</strong></summary>
+
+```powershell
+# 1. Download the portable build (~1.4 GB)
+curl.exe -L -o "$env:TEMP\ollama.zip" https://github.com/ollama/ollama/releases/latest/download/ollama-windows-amd64.zip
+
+# 2. Extract somewhere permanent
+Expand-Archive "$env:TEMP\ollama.zip" "$env:LOCALAPPDATA\Programs\Ollama" -Force
+
+# 3. Start the server (leave this window open, or add it to startup)
+& "$env:LOCALAPPDATA\Programs\Ollama\ollama.exe" serve
+
+# 4. In another terminal, pull a model
+& "$env:LOCALAPPDATA\Programs\Ollama\ollama.exe" pull qwen2.5:3b
+```
+Smaller/faster alternatives: `qwen2.5:1.5b` (~1 GB), `llama3.2:1b` (~1.3 GB).
+Swap models any time by editing `OLLAMA_MODEL` in `backend/.env`.
+</details>
+
+
 ### 4️⃣ Optional: global job data from Kaggle
 The curated India dataset loads automatically. To add ~124K global LinkedIn postings:
 ```bash
