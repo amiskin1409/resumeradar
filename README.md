@@ -7,6 +7,7 @@
 **AI-powered skill-gap analyzer, career roadmap builder and job-match platform —
 powered by a private, local LLM that never sends your data anywhere.**
 
+[![CI](https://github.com/amiskin1409/resumeradar/actions/workflows/ci.yml/badge.svg)](https://github.com/amiskin1409/resumeradar/actions/workflows/ci.yml)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![Python](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)](https://python.org)
