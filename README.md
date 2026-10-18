@@ -70,6 +70,7 @@ coaching summaries, roadmap phrasing, project ideas — and can be swapped or up
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts\start_dev.ps1       # start backend + frontend together
 powershell -ExecutionPolicy Bypass -File scripts\setup_ollama.ps1   # download, run & pull a model (no admin needed)
+powershell -ExecutionPolicy Bypass -File scripts\start_ollama.ps1   # just (re)start the local AI server
 ```
 
 ### 1️⃣ Backend
@@ -107,6 +108,9 @@ interview prep to model-generated versions via the ✨ *Enhance with private AI*
 > ~30 tok/s generation; a full enhance call (summary + roadmap + projects + prep)
 > takes about 1–2 minutes. The first call is slower while the model loads into RAM.
 > Point `OLLAMA_MODEL` in `backend/.env` at whichever model you pull — no code changes.
+>
+> Want the AI always available? Create a shortcut to `scripts\start_ollama.ps1` in your
+> Startup folder — press `Win+R`, type `shell:startup`, and drop it in.
 
 <details>
 <summary><strong>No admin rights? Use the portable build</strong></summary>
