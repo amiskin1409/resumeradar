@@ -1,0 +1,1 @@
+"""ResumeRadar backend application package."""

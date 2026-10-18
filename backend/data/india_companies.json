@@ -1,0 +1,903 @@
+{
+  "companies": [
+  {
+    "name": "Tata Consultancy Services",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "website": "https://www.tcs.com",
+    "careers_url": "https://www.tcs.com/careers",
+    "size": "600,000+ employees",
+    "description": "Global IT services and consulting company headquartered in Mumbai, hiring across India.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Mumbai", "Bengaluru", "Chennai"], "modes": ["onsite", "hybrid"], "experience": "0-3 yrs", "salary_min": 400000, "salary_max": 900000},
+      {"title": "Backend Developer", "locations": ["Bengaluru", "Hyderabad", "Pune"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 450000, "salary_max": 1000000},
+      {"title": "Data Analyst", "locations": ["Chennai", "Mumbai", "Kolkata"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 400000, "salary_max": 800000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai", "Bengaluru", "Kochi"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 350000, "salary_max": 800000},
+      {"title": "Data Engineer", "locations": ["Hyderabad", "Bengaluru", "Pune"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1600000},
+      {"title": "DevOps Engineer", "locations": ["Pune", "Gurugram", "Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Business Analyst", "locations": ["Mumbai", "Chennai", "Ahmedabad"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "Data Entry / Operations Analyst", "locations": ["Kochi", "Coimbatore", "Jaipur"], "modes": ["onsite"], "experience": "0-2 yrs", "salary_min": 250000, "salary_max": 450000}
+    ]
+  },
+  {
+    "name": "Infosys",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.infosys.com",
+    "careers_url": "https://www.infosys.com/careers.html",
+    "size": "300,000+ employees",
+    "description": "Global IT services company headquartered in Bengaluru, with delivery centres across India.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Pune", "Bengaluru", "Hyderabad"], "modes": ["onsite", "hybrid"], "experience": "0-3 yrs", "salary_min": 400000, "salary_max": 900000},
+      {"title": "Full Stack Developer", "locations": ["Bengaluru", "Chennai", "Pune"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Java Developer", "locations": ["Hyderabad", "Chennai", "Gurugram"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 450000, "salary_max": 1000000},
+      {"title": "Data Analyst", "locations": ["Pune", "Bengaluru", "Kolkata"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 400000, "salary_max": 850000},
+      {"title": "Cloud Engineer", "locations": ["Bengaluru", "Hyderabad", "Pune"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1600000},
+      {"title": "Cybersecurity Analyst", "locations": ["Chennai", "Bengaluru", "Gurugram"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 600000, "salary_max": 1400000},
+      {"title": "Data Scientist", "locations": ["Bengaluru", "Pune", "Hyderabad"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1000000, "salary_max": 2200000},
+      {"title": "Data Entry / Operations Analyst", "locations": ["Coimbatore", "Kochi", "Jaipur"], "modes": ["onsite"], "experience": "0-2 yrs", "salary_min": 250000, "salary_max": 450000}
+    ]
+  },
+  {
+    "name": "Wipro",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.wipro.com",
+    "careers_url": "https://careers.wipro.com",
+    "size": "200,000+ employees",
+    "description": "Global IT services and consulting company headquartered in Bengaluru, hiring across Indian cities.",
+    "roles": [
+      {"title": "Backend Developer", "locations": ["Bengaluru", "Pune", "Hyderabad"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 450000, "salary_max": 950000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai", "Kochi", "Bengaluru"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 350000, "salary_max": 750000},
+      {"title": "Data Analyst", "locations": ["Gurugram", "Pune", "Mumbai"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 400000, "salary_max": 800000},
+      {"title": "DevOps Engineer", "locations": ["Bengaluru", "Hyderabad", "Noida"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 850000, "salary_max": 1700000},
+      {"title": "Cloud Engineer", "locations": ["Pune", "Bengaluru", "Chennai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Python Developer", "locations": ["Bengaluru", "Hyderabad", "Pune"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 450000, "salary_max": 1000000},
+      {"title": "Business Analyst", "locations": ["Mumbai", "Chennai", "Ahmedabad"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 550000, "salary_max": 1200000}
+    ]
+  },
+  {
+    "name": "HCLTech",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Noida, Uttar Pradesh, India",
+    "website": "https://www.hcltech.com",
+    "careers_url": "https://www.hcltech.com/careers",
+    "size": "200,000+ employees",
+    "description": "Global technology company headquartered in Noida, with delivery centres across India.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Noida", "Bengaluru", "Chennai"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 400000, "salary_max": 850000},
+      {"title": "Java Developer", "locations": ["Noida", "Pune", "Hyderabad"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 450000, "salary_max": 950000},
+      {"title": "Data Engineer", "locations": ["Bengaluru", "Gurugram", "Chennai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Cybersecurity Analyst", "locations": ["Noida", "Bengaluru", "Mumbai"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 600000, "salary_max": 1400000},
+      {"title": "Cloud Engineer", "locations": ["Pune", "Noida", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai", "Noida", "Coimbatore"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 350000, "salary_max": 750000},
+      {"title": "Data Analyst", "locations": ["Gurugram", "Pune", "Mumbai"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 400000, "salary_max": 800000}
+    ]
+  },
+  {
+    "name": "Tech Mahindra",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Pune, Maharashtra, India",
+    "website": "https://www.techmahindra.com",
+    "careers_url": "https://www.techmahindra.com/careers",
+    "size": "140,000+ employees",
+    "description": "IT services company headquartered in Pune and part of the Mahindra Group, hiring across India.",
+    "roles": [
+      {"title": "Backend Developer", "locations": ["Pune", "Chennai", "Hyderabad"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 400000, "salary_max": 900000},
+      {"title": "Mobile App Developer", "locations": ["Pune", "Bengaluru", "Noida"], "modes": ["onsite"], "experience": "1-3 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "Data Analyst", "locations": ["Chennai", "Pune", "Kochi"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 400000, "salary_max": 800000},
+      {"title": "QA / Test Engineer", "locations": ["Noida", "Chennai", "Bengaluru"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 350000, "salary_max": 750000},
+      {"title": "DevOps Engineer", "locations": ["Pune", "Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 850000, "salary_max": 1700000},
+      {"title": "Business Analyst", "locations": ["Mumbai", "Pune", "Ahmedabad"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 550000, "salary_max": 1200000},
+      {"title": "Data Entry / Operations Analyst", "locations": ["Kochi", "Jaipur", "Coimbatore"], "modes": ["onsite"], "experience": "0-2 yrs", "salary_min": 250000, "salary_max": 450000}
+    ]
+  },
+  {
+    "name": "Cognizant",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Teaneck, New Jersey, USA",
+    "website": "https://www.cognizant.com",
+    "careers_url": "https://www.cognizant.com/careers",
+    "size": "300,000+ employees",
+    "description": "US-headquartered IT services company with large delivery campuses in Chennai, Bengaluru, Hyderabad and Pune.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Chennai", "Bengaluru", "Hyderabad"], "modes": ["onsite", "hybrid"], "experience": "0-3 yrs", "salary_min": 400000, "salary_max": 900000},
+      {"title": "Full Stack Developer", "locations": ["Bengaluru", "Chennai", "Pune"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Data Analyst", "locations": ["Chennai", "Mumbai", "Gurugram"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 400000, "salary_max": 850000},
+      {"title": "QA / Test Engineer", "locations": ["Coimbatore", "Chennai", "Kolkata"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 350000, "salary_max": 750000},
+      {"title": "Data Engineer", "locations": ["Bengaluru", "Hyderabad", "Chennai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1600000},
+      {"title": "Cloud Engineer", "locations": ["Pune", "Bengaluru", "Chennai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Business Analyst", "locations": ["Mumbai", "Chennai", "Gurugram"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 600000, "salary_max": 1300000}
+    ]
+  },
+  {
+    "name": "Capgemini",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Paris, France",
+    "website": "https://www.capgemini.com",
+    "careers_url": "https://www.capgemini.com/careers/",
+    "size": "300,000+ employees",
+    "description": "France-headquartered consulting and technology services company with major offices in Bengaluru, Mumbai, Pune and Hyderabad.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Bengaluru", "Mumbai", "Chennai"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 400000, "salary_max": 850000},
+      {"title": "Data Analyst", "locations": ["Pune", "Mumbai", "Hyderabad"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 400000, "salary_max": 800000},
+      {"title": "DevOps Engineer", "locations": ["Bengaluru", "Pune", "Hyderabad"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 850000, "salary_max": 1700000},
+      {"title": "Cybersecurity Analyst", "locations": ["Mumbai", "Bengaluru", "Gurugram"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 600000, "salary_max": 1400000},
+      {"title": "Java Developer", "locations": ["Chennai", "Pune", "Bengaluru"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 450000, "salary_max": 950000},
+      {"title": "QA / Test Engineer", "locations": ["Hyderabad", "Chennai", "Mumbai"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 350000, "salary_max": 750000}
+    ]
+  },
+  {
+    "name": "LTIMindtree",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "website": "https://www.ltimindtree.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=LTIMindtree&location=India",
+    "size": "85,000+ employees",
+    "description": "India-based IT services company headquartered in Mumbai and a subsidiary of Larsen & Toubro.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Bengaluru", "Pune", "Hyderabad"], "modes": ["onsite", "hybrid"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1700000},
+      {"title": "Mobile App Developer", "locations": ["Pune", "Bengaluru", "Noida"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 650000, "salary_max": 1400000},
+      {"title": "Data Engineer", "locations": ["Bengaluru", "Chennai", "Pune"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1700000},
+      {"title": "Business Analyst", "locations": ["Mumbai", "Chennai", "Gurugram"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 650000, "salary_max": 1400000},
+      {"title": "DevOps Engineer", "locations": ["Hyderabad", "Bengaluru", "Pune"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai", "Kochi", "Noida"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 400000, "salary_max": 850000}
+    ]
+  },
+  {
+    "name": "Mphasis",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.mphasis.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Mphasis&location=India",
+    "size": "30,000+ employees",
+    "description": "IT services company headquartered in Bengaluru, serving banking, insurance and technology clients.",
+    "roles": [
+      {"title": "Backend Developer", "locations": ["Bengaluru", "Pune", "Mumbai"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 450000, "salary_max": 950000},
+      {"title": "Python Developer", "locations": ["Chennai", "Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "Data Scientist", "locations": ["Bengaluru", "Pune", "Chennai"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1100000, "salary_max": 2300000},
+      {"title": "Machine Learning Engineer", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "2-6 yrs", "salary_min": 1200000, "salary_max": 2500000},
+      {"title": "Data Analyst", "locations": ["Pune", "Mumbai", "Noida"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 400000, "salary_max": 850000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai", "Pune", "Bengaluru"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 350000, "salary_max": 750000}
+    ]
+  },
+  {
+    "name": "Persistent Systems",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Pune, Maharashtra, India",
+    "website": "https://www.persistent.com",
+    "careers_url": "https://www.persistent.com/careers/",
+    "size": "5,000+ employees",
+    "description": "India-based technology company headquartered in Pune, focused on product engineering and digital transformation.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Pune", "Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1900000},
+      {"title": "Python Developer", "locations": ["Pune", "Chennai", "Noida"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "DevOps Engineer", "locations": ["Pune", "Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1000000, "salary_max": 2000000},
+      {"title": "Data Engineer", "locations": ["Pune", "Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1800000},
+      {"title": "Cloud Engineer", "locations": ["Pune", "Gurugram"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1000000, "salary_max": 2000000},
+      {"title": "UI/UX Designer", "locations": ["Pune", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000}
+    ]
+  },
+  {
+    "name": "Birlasoft",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Pune, Maharashtra, India",
+    "website": "https://www.birlasoft.com",
+    "careers_url": "https://jobs.birlasoft.com",
+    "size": "10,000+ employees",
+    "description": "IT services company of the CK Birla Group, headquartered in Pune with offices across India.",
+    "roles": [
+      {"title": "Data Scientist", "locations": ["Pune", "Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Full Stack Developer", "locations": ["Pune", "Bengaluru", "Chennai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Data Engineer", "locations": ["Pune", "Noida", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 750000, "salary_max": 1600000},
+      {"title": "Business Analyst", "locations": ["Pune", "Hyderabad", "Bengaluru"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "QA / Test Engineer", "locations": ["Pune", "Coimbatore", "Chennai"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 400000, "salary_max": 850000},
+      {"title": "Java Developer", "locations": ["Pune", "Bengaluru", "Noida"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 450000, "salary_max": 950000}
+    ]
+  },
+  {
+    "name": "Tata Elxsi",
+    "industry": "Engineering & Design Services",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "website": "https://www.tataelxsi.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Tata%20Elxsi&location=India",
+    "size": "4,000+ employees",
+    "description": "Design and technology services company of the Tata Group, headquartered in Mumbai.",
+    "roles": [
+      {"title": "UI/UX Designer", "locations": ["Bengaluru", "Mumbai", "Thiruvananthapuram"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 600000, "salary_max": 1400000},
+      {"title": "Mobile App Developer", "locations": ["Bengaluru", "Pune"], "modes": ["onsite"], "experience": "1-3 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Frontend Developer", "locations": ["Bengaluru", "Mumbai"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 500000, "salary_max": 1100000},
+      {"title": "Python Developer", "locations": ["Bengaluru", "Chennai"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Data Analyst", "locations": ["Mumbai", "Bengaluru"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 450000, "salary_max": 900000},
+      {"title": "QA / Test Engineer", "locations": ["Thiruvananthapuram", "Bengaluru"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 400000, "salary_max": 850000}
+    ]
+  },
+  {
+    "name": "Accenture (India)",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Dublin, Ireland",
+    "website": "https://www.accenture.com",
+    "careers_url": "https://www.accenture.com/in-en/careers",
+    "size": "700,000+ employees",
+    "description": "Global professional services company whose India operations hire across Bengaluru, Hyderabad, Mumbai and Pune.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Bengaluru", "Hyderabad", "Mumbai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1700000},
+      {"title": "Data Analyst", "locations": ["Chennai", "Bengaluru", "Gurugram"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 500000, "salary_max": 1000000},
+      {"title": "Cloud Engineer", "locations": ["Pune", "Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1900000},
+      {"title": "Cybersecurity Analyst", "locations": ["Bengaluru", "Chennai", "Gurugram"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1600000},
+      {"title": "DevOps Engineer", "locations": ["Pune", "Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1000000, "salary_max": 2000000},
+      {"title": "Data Engineer", "locations": ["Hyderabad", "Chennai", "Pune"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1900000},
+      {"title": "Business Analyst", "locations": ["Mumbai", "Bengaluru", "Ahmedabad"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000}
+    ]
+  },
+  {
+    "name": "IBM (India)",
+    "industry": "Software & Cloud",
+    "headquarters": "Armonk, New York, USA",
+    "website": "https://www.ibm.com",
+    "careers_url": "https://www.ibm.com/careers",
+    "size": "250,000+ employees",
+    "description": "Technology and consulting company whose India teams are based in Bengaluru, Hyderabad, Pune and Gurugram.",
+    "roles": [
+      {"title": "Python Developer", "locations": ["Bengaluru", "Hyderabad", "Pune"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 900000, "salary_max": 1900000},
+      {"title": "Data Scientist", "locations": ["Bengaluru", "Gurugram"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1400000, "salary_max": 2800000},
+      {"title": "Cloud Engineer", "locations": ["Hyderabad", "Bengaluru", "Pune"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1000000, "salary_max": 2100000},
+      {"title": "Cybersecurity Analyst", "locations": ["Bengaluru", "Chennai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1700000},
+      {"title": "Data Engineer", "locations": ["Pune", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1900000},
+      {"title": "QA / Test Engineer", "locations": ["Noida", "Bengaluru"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 450000, "salary_max": 950000}
+    ]
+  },
+  {
+    "name": "Deloitte (India)",
+    "industry": "Professional Services",
+    "headquarters": "London, United Kingdom",
+    "website": "https://www.deloitte.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Deloitte%20%28India%29&location=India",
+    "size": "450,000+ employees",
+    "description": "Professional services network whose member firms in India hire consultants and technologists in Mumbai, Bengaluru and Hyderabad.",
+    "roles": [
+      {"title": "Business Analyst", "locations": ["Mumbai", "Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Data Analyst", "locations": ["Hyderabad", "Mumbai", "Gurugram"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 550000, "salary_max": 1100000},
+      {"title": "Data Engineer", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1900000},
+      {"title": "Cloud Engineer", "locations": ["Mumbai", "Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1900000},
+      {"title": "Cybersecurity Analyst", "locations": ["Bengaluru", "Mumbai", "Gurugram"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1700000},
+      {"title": "Data Scientist", "locations": ["Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1200000, "salary_max": 2500000}
+    ]
+  },
+  {
+    "name": "EY (India)",
+    "industry": "Professional Services",
+    "headquarters": "London, United Kingdom",
+    "website": "https://www.ey.com",
+    "careers_url": "https://careers.ey.com",
+    "size": "350,000+ employees",
+    "description": "Professional services network whose India offices hire consulting and technology staff in Bengaluru, Mumbai and Hyderabad.",
+    "roles": [
+      {"title": "Business Analyst", "locations": ["Bengaluru", "Mumbai", "Gurugram"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Data Analyst", "locations": ["Hyderabad", "Chennai", "Mumbai"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 550000, "salary_max": 1100000},
+      {"title": "Cybersecurity Analyst", "locations": ["Bengaluru", "Gurugram", "Mumbai"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1600000},
+      {"title": "Data Scientist", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1200000, "salary_max": 2400000},
+      {"title": "Cloud Engineer", "locations": ["Bengaluru", "Mumbai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1800000}
+    ]
+  },
+  {
+    "name": "KPMG (India)",
+    "industry": "Professional Services",
+    "headquarters": "Amstelveen, Netherlands",
+    "website": "https://kpmg.com",
+    "careers_url": "https://kpmg.com/careers",
+    "size": "250,000+ employees",
+    "description": "Professional services network with member firms in India hiring across Mumbai, Bengaluru, Pune and Hyderabad.",
+    "roles": [
+      {"title": "Business Analyst", "locations": ["Mumbai", "Bengaluru", "Gurugram"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1400000},
+      {"title": "Data Analyst", "locations": ["Pune", "Mumbai", "Chennai"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 550000, "salary_max": 1100000},
+      {"title": "Cybersecurity Analyst", "locations": ["Bengaluru", "Mumbai"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1600000},
+      {"title": "Data Engineer", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Data Scientist", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1200000, "salary_max": 2400000}
+    ]
+  },
+  {
+    "name": "PwC (India)",
+    "industry": "Professional Services",
+    "headquarters": "London, United Kingdom",
+    "website": "https://www.pwc.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=PwC%20%28India%29&location=India",
+    "size": "350,000+ employees",
+    "description": "Professional services network whose India firms hire consultants in Mumbai, Bengaluru, Hyderabad, Kolkata and Chennai.",
+    "roles": [
+      {"title": "Business Analyst", "locations": ["Mumbai", "Bengaluru", "Kolkata"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1400000},
+      {"title": "Data Analyst", "locations": ["Hyderabad", "Chennai", "Mumbai"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 550000, "salary_max": 1100000},
+      {"title": "Cloud Engineer", "locations": ["Bengaluru", "Gurugram"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Cybersecurity Analyst", "locations": ["Bengaluru", "Mumbai"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1600000},
+      {"title": "Data Entry / Operations Analyst", "locations": ["Kolkata", "Chennai"], "modes": ["onsite"], "experience": "0-2 yrs", "salary_min": 300000, "salary_max": 600000}
+    ]
+  },
+  {
+    "name": "Google (India)",
+    "industry": "Internet / Consumer Tech",
+    "headquarters": "Mountain View, California, USA",
+    "website": "https://about.google",
+    "careers_url": "https://careers.google.com",
+    "size": "180,000+ employees",
+    "description": "Internet and technology company whose India engineering teams are based in Bengaluru and Hyderabad.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1800000, "salary_max": 3500000},
+      {"title": "Backend Developer", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1800000, "salary_max": 3500000},
+      {"title": "Machine Learning Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-6 yrs", "salary_min": 2500000, "salary_max": 4500000},
+      {"title": "Data Analyst", "locations": ["Bengaluru", "Gurugram"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1200000, "salary_max": 2200000},
+      {"title": "Product Manager", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "3-7 yrs", "salary_min": 2500000, "salary_max": 4500000}
+    ]
+  },
+  {
+    "name": "Microsoft (India)",
+    "industry": "Software & Cloud",
+    "headquarters": "Redmond, Washington, USA",
+    "website": "https://www.microsoft.com/en-in",
+    "careers_url": "https://careers.microsoft.com",
+    "size": "220,000+ employees",
+    "description": "Software and cloud company whose India development centres are in Hyderabad, Bengaluru, Noida and Pune.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1800000, "salary_max": 3500000},
+      {"title": "Data Analyst", "locations": ["Hyderabad", "Noida"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1100000, "salary_max": 2100000},
+      {"title": "Data Engineer", "locations": ["Hyderabad", "Bengaluru", "Pune"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 2000000, "salary_max": 3800000},
+      {"title": "Cloud Engineer", "locations": ["Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1600000, "salary_max": 3200000},
+      {"title": "Machine Learning Engineer", "locations": ["Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "2-6 yrs", "salary_min": 2400000, "salary_max": 4500000},
+      {"title": "Product Manager", "locations": ["Hyderabad", "Gurugram"], "modes": ["hybrid"], "experience": "3-7 yrs", "salary_min": 2500000, "salary_max": 4500000}
+    ]
+  },
+  {
+    "name": "Amazon (India)",
+    "industry": "Internet / Consumer Tech",
+    "headquarters": "Seattle, Washington, USA",
+    "website": "https://www.amazon.in",
+    "careers_url": "https://www.amazon.jobs",
+    "size": "1,500,000+ employees",
+    "description": "E-commerce and cloud computing company whose India teams work from Bengaluru, Chennai, Hyderabad and Pune.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1600000, "salary_max": 3200000},
+      {"title": "Backend Developer", "locations": ["Bengaluru", "Chennai"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1600000, "salary_max": 3200000},
+      {"title": "Data Analyst", "locations": ["Bengaluru", "Gurugram"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1100000, "salary_max": 2100000},
+      {"title": "Data Engineer", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1800000, "salary_max": 3500000},
+      {"title": "DevOps Engineer", "locations": ["Bengaluru", "Pune"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1700000, "salary_max": 3300000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai", "Bengaluru"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1200000, "salary_max": 2300000}
+    ]
+  },
+  {
+    "name": "Adobe (India)",
+    "industry": "Design & Creative Software",
+    "headquarters": "San Jose, California, USA",
+    "website": "https://www.adobe.com",
+    "careers_url": "https://careers.adobe.com",
+    "size": "25,000+ employees",
+    "description": "Software company whose India offices are in Noida and Bengaluru.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Noida", "Bengaluru"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1600000, "salary_max": 3000000},
+      {"title": "Data Scientist", "locations": ["Bengaluru", "Noida"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 2000000, "salary_max": 4000000},
+      {"title": "Machine Learning Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-6 yrs", "salary_min": 2300000, "salary_max": 4300000},
+      {"title": "UI/UX Designer", "locations": ["Noida", "Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1500000, "salary_max": 2800000},
+      {"title": "Product Manager", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "3-7 yrs", "salary_min": 2500000, "salary_max": 4500000}
+    ]
+  },
+  {
+    "name": "Salesforce (India)",
+    "industry": "SaaS",
+    "headquarters": "San Francisco, California, USA",
+    "website": "https://www.salesforce.com",
+    "careers_url": "https://careers.salesforce.com",
+    "size": "70,000+ employees",
+    "description": "Cloud software company whose India product and support teams are based in Hyderabad and Bengaluru.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1700000, "salary_max": 3300000},
+      {"title": "Data Analyst", "locations": ["Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1100000, "salary_max": 2100000},
+      {"title": "Data Scientist", "locations": ["Hyderabad"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 2000000, "salary_max": 3800000},
+      {"title": "DevOps Engineer", "locations": ["Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1600000, "salary_max": 3000000},
+      {"title": "Product Manager", "locations": ["Hyderabad"], "modes": ["hybrid"], "experience": "3-7 yrs", "salary_min": 2400000, "salary_max": 4200000}
+    ]
+  },
+  {
+    "name": "Zoho",
+    "industry": "SaaS",
+    "headquarters": "Chennai, Tamil Nadu, India",
+    "website": "https://www.zoho.com",
+    "careers_url": "https://www.zoho.com/careers",
+    "size": "10,000+ employees",
+    "description": "India-headquartered SaaS company building business software, with its main campus in Chennai.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Chennai", "Coimbatore"], "modes": ["onsite"], "experience": "0-2 yrs", "salary_min": 450000, "salary_max": 900000},
+      {"title": "Java Developer", "locations": ["Chennai", "Bengaluru"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 500000, "salary_max": 1100000},
+      {"title": "Python Developer", "locations": ["Chennai"], "modes": ["onsite"], "experience": "1-3 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai", "Coimbatore"], "modes": ["onsite"], "experience": "0-2 yrs", "salary_min": 400000, "salary_max": 800000},
+      {"title": "Mobile App Developer", "locations": ["Chennai"], "modes": ["onsite"], "experience": "1-3 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "Data Analyst", "locations": ["Chennai", "Coimbatore"], "modes": ["hybrid"], "experience": "0-2 yrs", "salary_min": 400000, "salary_max": 850000}
+    ]
+  },
+  {
+    "name": "Flipkart",
+    "industry": "E-commerce",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.flipkart.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Flipkart&location=India",
+    "size": "10,000+ employees",
+    "description": "India-based e-commerce company headquartered in Bengaluru.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1400000, "salary_max": 2800000},
+      {"title": "Java Developer", "locations": ["Bengaluru", "Chennai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1400000, "salary_max": 2800000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Data Scientist", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1600000, "salary_max": 3200000},
+      {"title": "Data Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1500000, "salary_max": 3000000},
+      {"title": "Product Manager", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 1800000, "salary_max": 3500000}
+    ]
+  },
+  {
+    "name": "Swiggy",
+    "industry": "Food Tech",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.swiggy.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Swiggy&location=India",
+    "size": "5,000+ employees",
+    "description": "Food delivery and quick-commerce platform headquartered in Bengaluru.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1200000, "salary_max": 2400000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 700000, "salary_max": 1400000},
+      {"title": "Data Scientist", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1500000, "salary_max": 3000000},
+      {"title": "DevOps Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1300000, "salary_max": 2600000},
+      {"title": "Product Manager", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 1700000, "salary_max": 3200000}
+    ]
+  },
+  {
+    "name": "Zerodha",
+    "industry": "Fintech",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://zerodha.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Zerodha&location=India",
+    "size": "1,000+ employees",
+    "description": "India-based online stock broking platform headquartered in Bengaluru.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Bengaluru"], "modes": ["onsite"], "experience": "1-3 yrs", "salary_min": 1000000, "salary_max": 2000000},
+      {"title": "Backend Developer", "locations": ["Bengaluru"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 1200000, "salary_max": 2400000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "UI/UX Designer", "locations": ["Bengaluru"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "QA / Test Engineer", "locations": ["Bengaluru"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 600000, "salary_max": 1200000}
+    ]
+  },
+  {
+    "name": "PhonePe",
+    "industry": "Fintech",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.phonepe.com",
+    "careers_url": "https://www.phonepe.com/careers/",
+    "size": "2,000+ employees",
+    "description": "Digital payments company headquartered in Bengaluru, operating the PhonePe app.",
+    "roles": [
+      {"title": "Backend Developer", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1400000, "salary_max": 2800000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 800000, "salary_max": 1600000},
+      {"title": "Data Scientist", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1600000, "salary_max": 3200000},
+      {"title": "DevOps Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1400000, "salary_max": 2700000},
+      {"title": "Product Manager", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 1800000, "salary_max": 3500000}
+    ]
+  },
+  {
+    "name": "Razorpay",
+    "industry": "Fintech",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://razorpay.com",
+    "careers_url": "https://razorpay.com/careers/",
+    "size": "2,000+ employees",
+    "description": "Payments and banking platform headquartered in Bengaluru, serving Indian businesses.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Bengaluru", "Pune"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1300000, "salary_max": 2600000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Cybersecurity Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1100000, "salary_max": 2200000},
+      {"title": "DevOps Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1400000, "salary_max": 2700000},
+      {"title": "QA / Test Engineer", "locations": ["Bengaluru", "Pune"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1800000}
+    ]
+  },
+  {
+    "name": "Paytm",
+    "industry": "Fintech",
+    "headquarters": "Noida, Uttar Pradesh, India",
+    "website": "https://www.paytm.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Paytm&location=India",
+    "size": "2,000+ employees",
+    "description": "India-based digital payments and financial services company headquartered in Noida.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Noida", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1100000, "salary_max": 2200000},
+      {"title": "Mobile App Developer", "locations": ["Noida"], "modes": ["onsite"], "experience": "1-3 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Data Analyst", "locations": ["Noida", "Gurugram"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "Data Scientist", "locations": ["Noida"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1400000, "salary_max": 2800000},
+      {"title": "QA / Test Engineer", "locations": ["Noida"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 500000, "salary_max": 1100000}
+    ]
+  },
+  {
+    "name": "Ola",
+    "industry": "EV / Mobility",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.olacabs.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Ola&location=India",
+    "size": "1,000+ employees",
+    "description": "Ride-hailing and electric vehicle company headquartered in Bengaluru.",
+    "roles": [
+      {"title": "Mobile App Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "Data Scientist", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1400000, "salary_max": 2700000},
+      {"title": "Cloud Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1300000, "salary_max": 2500000}
+    ]
+  },
+  {
+    "name": "Freshworks",
+    "industry": "SaaS",
+    "headquarters": "Chennai, Tamil Nadu, India",
+    "website": "https://www.freshworks.com",
+    "careers_url": "https://www.freshworks.com/careers/",
+    "size": "4,000+ employees",
+    "description": "SaaS company for customer and IT service software, founded and headquartered in Chennai.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Chennai", "Bengaluru"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Full Stack Developer", "locations": ["Chennai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1100000, "salary_max": 2200000},
+      {"title": "Data Analyst", "locations": ["Chennai"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 700000, "salary_max": 1400000},
+      {"title": "Product Manager", "locations": ["Chennai", "Bengaluru"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 1600000, "salary_max": 3000000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 600000, "salary_max": 1200000}
+    ]
+  },
+  {
+    "name": "Postman",
+    "industry": "SaaS",
+    "headquarters": "San Francisco, California, USA",
+    "website": "https://www.postman.com",
+    "careers_url": "https://postman.com/company/careers/",
+    "size": "500+ employees",
+    "description": "API development software company with an engineering office in Bengaluru.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1600000, "salary_max": 3000000},
+      {"title": "Backend Developer", "locations": ["Work From Home"], "modes": ["remote"], "experience": "1-4 yrs", "salary_min": 1500000, "salary_max": 2800000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1000000, "salary_max": 1900000},
+      {"title": "QA / Test Engineer", "locations": ["Work From Home"], "modes": ["remote"], "experience": "1-4 yrs", "salary_min": 1100000, "salary_max": 2100000},
+      {"title": "Product Manager", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 2000000, "salary_max": 3600000}
+    ]
+  },
+  {
+    "name": "Sprinklr",
+    "industry": "SaaS",
+    "headquarters": "New York, New York, USA",
+    "website": "https://www.sprinklr.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Sprinklr&location=India",
+    "size": "4,000+ employees",
+    "description": "Customer experience software company with large India offices in Bengaluru, Gurugram, Mumbai and Chennai.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Bengaluru", "Gurugram"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1200000, "salary_max": 2300000},
+      {"title": "Data Engineer", "locations": ["Bengaluru", "Chennai"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1400000, "salary_max": 2700000},
+      {"title": "Data Scientist", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1500000, "salary_max": 2900000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1700000},
+      {"title": "Product Manager", "locations": ["Bengaluru", "Mumbai"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 1700000, "salary_max": 3200000}
+    ]
+  },
+  {
+    "name": "Dream11",
+    "industry": "Gaming / Fantasy Sports",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "website": "https://www.dream11.com",
+    "careers_url": "https://www.dream11.com/careers",
+    "size": "1,000+ employees",
+    "description": "Fantasy sports platform headquartered in Mumbai, part of Dream Sports.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Mumbai", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1200000, "salary_max": 2400000},
+      {"title": "Mobile App Developer", "locations": ["Mumbai"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1000000, "salary_max": 1900000},
+      {"title": "Data Analyst", "locations": ["Mumbai"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 700000, "salary_max": 1400000},
+      {"title": "Data Scientist", "locations": ["Mumbai", "Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1500000, "salary_max": 2900000},
+      {"title": "DevOps Engineer", "locations": ["Mumbai"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1300000, "salary_max": 2500000}
+    ]
+  },
+  {
+    "name": "Nykaa",
+    "industry": "E-commerce",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "website": "https://www.nykaa.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Nykaa&location=India",
+    "size": "1,000+ employees",
+    "description": "Beauty and fashion e-commerce company headquartered in Mumbai.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Mumbai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1000000, "salary_max": 2000000},
+      {"title": "Mobile App Developer", "locations": ["Mumbai"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 800000, "salary_max": 1600000},
+      {"title": "Data Analyst", "locations": ["Mumbai"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "Product Manager", "locations": ["Mumbai"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 1500000, "salary_max": 2800000}
+    ]
+  },
+  {
+    "name": "Myntra",
+    "industry": "E-commerce",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.myntra.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Myntra&location=India",
+    "size": "3,000+ employees",
+    "description": "Fashion e-commerce company headquartered in Bengaluru and part of Flipkart.",
+    "roles": [
+      {"title": "Frontend Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1100000, "salary_max": 2200000},
+      {"title": "Backend Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1300000, "salary_max": 2600000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 700000, "salary_max": 1400000},
+      {"title": "Data Scientist", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1500000, "salary_max": 2900000},
+      {"title": "UI/UX Designer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1800000}
+    ]
+  },
+  {
+    "name": "Sharechat",
+    "industry": "Internet / Consumer Tech",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.sharechat.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Sharechat&location=India",
+    "size": "1,000+ employees",
+    "description": "Social media and short-video company behind ShareChat and Moj, headquartered in Bengaluru.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1100000, "salary_max": 2200000},
+      {"title": "Mobile App Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 650000, "salary_max": 1300000},
+      {"title": "Data Scientist", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1400000, "salary_max": 2700000}
+    ]
+  },
+  {
+    "name": "Cult.fit",
+    "industry": "Healthtech",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.cult.fit",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Cult.fit&location=India",
+    "size": "1,000+ employees",
+    "description": "Health and fitness company operating gyms, fitness classes and health services, headquartered in Bengaluru.",
+    "roles": [
+      {"title": "Mobile App Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Full Stack Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1100000, "salary_max": 2200000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 650000, "salary_max": 1300000},
+      {"title": "Product Manager", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 1500000, "salary_max": 2800000}
+    ]
+  },
+  {
+    "name": "Groww",
+    "industry": "Fintech",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://groww.in",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Groww&location=India",
+    "size": "1,000+ employees",
+    "description": "Investment and trading platform headquartered in Bengaluru.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1300000, "salary_max": 2600000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Data Scientist", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1500000, "salary_max": 2900000},
+      {"title": "DevOps Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1400000, "salary_max": 2600000},
+      {"title": "Product Manager", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 1700000, "salary_max": 3200000}
+    ]
+  },
+  {
+    "name": "CRED",
+    "industry": "Fintech",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.cred.club",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=CRED&location=India",
+    "size": "500+ employees",
+    "description": "Fintech company behind the CRED app, headquartered in Bengaluru.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1400000, "salary_max": 2700000},
+      {"title": "Mobile App Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-3 yrs", "salary_min": 1100000, "salary_max": 2100000},
+      {"title": "UI/UX Designer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1000000, "salary_max": 2000000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 700000, "salary_max": 1500000}
+    ]
+  },
+  {
+    "name": "Meesho",
+    "industry": "E-commerce",
+    "headquarters": "Bengaluru, Karnataka, India",
+    "website": "https://www.meesho.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Meesho&location=India",
+    "size": "3,000+ employees",
+    "description": "E-commerce platform for small sellers and value shoppers, headquartered in Bengaluru.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1300000, "salary_max": 2600000},
+      {"title": "Data Analyst", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Data Scientist", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1500000, "salary_max": 2900000},
+      {"title": "Data Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1400000, "salary_max": 2700000},
+      {"title": "Product Manager", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 1700000, "salary_max": 3200000}
+    ]
+  },
+  {
+    "name": "HDFC Bank",
+    "industry": "Banking",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "website": "https://www.hdfcbank.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=HDFC%20Bank&location=India",
+    "size": "150,000+ employees",
+    "description": "Private sector bank headquartered in Mumbai with branches and offices across India.",
+    "roles": [
+      {"title": "Business Analyst", "locations": ["Mumbai", "Pune", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "Data Analyst", "locations": ["Mumbai", "Gurugram"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 550000, "salary_max": 1200000},
+      {"title": "Java Developer", "locations": ["Mumbai", "Bengaluru"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1700000},
+      {"title": "Cybersecurity Analyst", "locations": ["Mumbai", "Pune"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1600000},
+      {"title": "Data Entry / Operations Analyst", "locations": ["Mumbai", "Chennai", "Jaipur"], "modes": ["onsite"], "experience": "0-2 yrs", "salary_min": 300000, "salary_max": 550000}
+    ]
+  },
+  {
+    "name": "ICICI Bank",
+    "industry": "Banking",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "website": "https://www.icicibank.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=ICICI%20Bank&location=India",
+    "size": "80,000+ employees",
+    "description": "Private sector bank headquartered in Mumbai with a nationwide branch network.",
+    "roles": [
+      {"title": "Business Analyst", "locations": ["Mumbai", "Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "Data Analyst", "locations": ["Mumbai", "Pune"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 550000, "salary_max": 1200000},
+      {"title": "Python Developer", "locations": ["Mumbai", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1600000},
+      {"title": "Data Engineer", "locations": ["Mumbai", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Data Entry / Operations Analyst", "locations": ["Mumbai", "Jaipur", "Ahmedabad"], "modes": ["onsite"], "experience": "0-2 yrs", "salary_min": 300000, "salary_max": 550000}
+    ]
+  },
+  {
+    "name": "Axis Bank",
+    "industry": "Banking",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "website": "https://www.axisbank.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Axis%20Bank&location=India",
+    "size": "70,000+ employees",
+    "description": "Private sector bank headquartered in Mumbai, serving retail and corporate customers across India.",
+    "roles": [
+      {"title": "Business Analyst", "locations": ["Mumbai", "Bengaluru", "Gurugram"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "Data Analyst", "locations": ["Mumbai"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 550000, "salary_max": 1200000},
+      {"title": "Cloud Engineer", "locations": ["Mumbai", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1000000, "salary_max": 2000000},
+      {"title": "Data Scientist", "locations": ["Mumbai", "Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1200000, "salary_max": 2400000},
+      {"title": "QA / Test Engineer", "locations": ["Pune", "Mumbai"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 550000, "salary_max": 1100000}
+    ]
+  },
+  {
+    "name": "State Bank of India",
+    "industry": "Banking",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "website": "https://sbi.co.in",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=State%20Bank%20of%20India&location=India",
+    "size": "300,000+ employees",
+    "description": "Public sector bank headquartered in Mumbai, with the largest branch network in India.",
+    "roles": [
+      {"title": "Business Analyst", "locations": ["Mumbai", "Pune"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 500000, "salary_max": 1100000},
+      {"title": "Data Analyst", "locations": ["Mumbai"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 500000, "salary_max": 1100000},
+      {"title": "Cybersecurity Analyst", "locations": ["Mumbai", "Hyderabad"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1500000},
+      {"title": "Java Developer", "locations": ["Mumbai"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 700000, "salary_max": 1400000},
+      {"title": "Data Entry / Operations Analyst", "locations": ["Mumbai", "Chennai", "Jaipur"], "modes": ["onsite"], "experience": "0-2 yrs", "salary_min": 300000, "salary_max": 600000}
+    ]
+  },
+  {
+    "name": "Bharti Airtel",
+    "industry": "Telecommunications",
+    "headquarters": "New Delhi, Delhi, India",
+    "website": "https://www.airtel.in",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Bharti%20Airtel&location=India",
+    "size": "10,000+ employees",
+    "description": "Telecommunications company headquartered in New Delhi, operating mobile and broadband networks across India.",
+    "roles": [
+      {"title": "Data Analyst", "locations": ["Gurugram", "New Delhi"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 600000, "salary_max": 1300000},
+      {"title": "Data Engineer", "locations": ["Bengaluru", "Gurugram"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Cloud Engineer", "locations": ["Gurugram", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1900000},
+      {"title": "Cybersecurity Analyst", "locations": ["New Delhi", "Gurugram"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1600000},
+      {"title": "Product Manager", "locations": ["Gurugram"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 1500000, "salary_max": 2800000}
+    ]
+  },
+  {
+    "name": "Reliance Jio",
+    "industry": "Telecommunications",
+    "headquarters": "Navi Mumbai, Maharashtra, India",
+    "website": "https://www.jio.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Reliance%20Jio&location=India",
+    "size": "20,000+ employees",
+    "description": "Telecommunications and digital services company part of Reliance Industries, based in Navi Mumbai.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Mumbai", "Bengaluru"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Data Analyst", "locations": ["Mumbai", "Hyderabad"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 550000, "salary_max": 1200000},
+      {"title": "Cloud Engineer", "locations": ["Mumbai", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1000000, "salary_max": 2000000},
+      {"title": "Data Engineer", "locations": ["Mumbai", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 900000, "salary_max": 1800000},
+      {"title": "Cybersecurity Analyst", "locations": ["Mumbai"], "modes": ["onsite"], "experience": "1-4 yrs", "salary_min": 800000, "salary_max": 1600000}
+    ]
+  },
+  {
+    "name": "Samsung (India)",
+    "industry": "Consumer Electronics",
+    "headquarters": "Seoul, South Korea",
+    "website": "https://www.samsung.com/in/",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Samsung%20%28India%29&location=India",
+    "size": "250,000+ employees",
+    "description": "Electronics manufacturer whose India operations include R&D centres in Bengaluru and Noida and a plant near Chennai.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Bengaluru", "Noida"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1000000, "salary_max": 2000000},
+      {"title": "Data Scientist", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1500000, "salary_max": 2800000},
+      {"title": "QA / Test Engineer", "locations": ["Noida", "Bengaluru"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 600000, "salary_max": 1200000},
+      {"title": "Cloud Engineer", "locations": ["Bengaluru", "Noida"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1100000, "salary_max": 2100000},
+      {"title": "Data Analyst", "locations": ["Gurugram", "Noida"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 600000, "salary_max": 1200000}
+    ]
+  },
+  {
+    "name": "Cisco (India)",
+    "industry": "Networking Hardware",
+    "headquarters": "San Jose, California, USA",
+    "website": "https://www.cisco.com",
+    "careers_url": "https://jobs.cisco.com",
+    "size": "80,000+ employees",
+    "description": "Networking and security hardware company with major engineering sites in Bengaluru, Chennai and Pune.",
+    "roles": [
+      {"title": "Backend Developer", "locations": ["Bengaluru", "Chennai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1600000, "salary_max": 3000000},
+      {"title": "Cybersecurity Analyst", "locations": ["Bengaluru", "Pune"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1400000, "salary_max": 2700000},
+      {"title": "DevOps Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1500000, "salary_max": 2800000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1100000, "salary_max": 2100000},
+      {"title": "Python Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1500000, "salary_max": 2900000}
+    ]
+  },
+  {
+    "name": "NVIDIA (India)",
+    "industry": "Semiconductors",
+    "headquarters": "Santa Clara, California, USA",
+    "website": "https://www.nvidia.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=NVIDIA%20%28India%29&location=India",
+    "size": "30,000+ employees",
+    "description": "Semiconductor and AI computing company with India engineering offices in Bengaluru, Pune and Hyderabad.",
+    "roles": [
+      {"title": "Machine Learning Engineer", "locations": ["Bengaluru", "Pune"], "modes": ["hybrid"], "experience": "2-6 yrs", "salary_min": 2500000, "salary_max": 4500000},
+      {"title": "Python Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1600000, "salary_max": 3000000},
+      {"title": "Cloud Engineer", "locations": ["Bengaluru", "Pune"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1800000, "salary_max": 3400000},
+      {"title": "QA / Test Engineer", "locations": ["Pune", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1200000, "salary_max": 2300000},
+      {"title": "Data Scientist", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 2000000, "salary_max": 4000000}
+    ]
+  },
+  {
+    "name": "Intel (India)",
+    "industry": "Semiconductors",
+    "headquarters": "Santa Clara, California, USA",
+    "website": "https://www.intel.com",
+    "careers_url": "https://jobs.intel.com",
+    "size": "80,000+ employees",
+    "description": "Semiconductor company with large India sites in Bengaluru, Hyderabad and Pune.",
+    "roles": [
+      {"title": "Python Developer", "locations": ["Bengaluru", "Hyderabad"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1400000, "salary_max": 2700000},
+      {"title": "Machine Learning Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-6 yrs", "salary_min": 2200000, "salary_max": 4200000},
+      {"title": "QA / Test Engineer", "locations": ["Bengaluru", "Pune"], "modes": ["onsite"], "experience": "0-3 yrs", "salary_min": 800000, "salary_max": 1600000},
+      {"title": "Data Analyst", "locations": ["Hyderabad", "Bengaluru"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 900000, "salary_max": 1700000}
+    ]
+  },
+  {
+    "name": "Druva",
+    "industry": "Cybersecurity",
+    "headquarters": "Pune, Maharashtra, India",
+    "website": "https://www.druva.com",
+    "careers_url": "https://www.druva.com/careers",
+    "size": "500+ employees",
+    "description": "Data security and cloud backup company with engineering operations based in Pune.",
+    "roles": [
+      {"title": "Backend Developer", "locations": ["Pune"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1100000, "salary_max": 2200000},
+      {"title": "Cloud Engineer", "locations": ["Pune"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1100000, "salary_max": 2200000},
+      {"title": "DevOps Engineer", "locations": ["Pune"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1200000, "salary_max": 2300000},
+      {"title": "QA / Test Engineer", "locations": ["Pune"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 600000, "salary_max": 1200000}
+    ]
+  },
+  {
+    "name": "Chargebee",
+    "industry": "SaaS",
+    "headquarters": "Chennai, Tamil Nadu, India",
+    "website": "https://chargebee.com",
+    "careers_url": "https://www.linkedin.com/jobs/search/?keywords=Chargebee&location=India",
+    "size": "500+ employees",
+    "description": "Subscription billing and revenue management software company founded in Chennai.",
+    "roles": [
+      {"title": "Full Stack Developer", "locations": ["Chennai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1000000, "salary_max": 2000000},
+      {"title": "Data Analyst", "locations": ["Chennai"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 600000, "salary_max": 1200000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai"], "modes": ["hybrid"], "experience": "0-3 yrs", "salary_min": 550000, "salary_max": 1100000},
+      {"title": "Product Manager", "locations": ["Chennai"], "modes": ["hybrid"], "experience": "3-6 yrs", "salary_min": 1400000, "salary_max": 2600000}
+    ]
+  },
+  {
+    "name": "Arista Networks",
+    "industry": "Networking Hardware",
+    "headquarters": "Santa Clara, California, USA",
+    "website": "https://www.arista.com",
+    "careers_url": "https://www.arista.com/en/careers",
+    "size": "4,000+ employees",
+    "description": "Cloud networking company with India engineering offices in Bengaluru, Chennai and Pune.",
+    "roles": [
+      {"title": "Backend Developer", "locations": ["Bengaluru", "Chennai"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1500000, "salary_max": 2900000},
+      {"title": "Python Developer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1500000, "salary_max": 2900000},
+      {"title": "Cloud Engineer", "locations": ["Bengaluru"], "modes": ["hybrid"], "experience": "2-5 yrs", "salary_min": 1600000, "salary_max": 3000000},
+      {"title": "QA / Test Engineer", "locations": ["Chennai", "Bengaluru"], "modes": ["hybrid"], "experience": "1-4 yrs", "salary_min": 1100000, "salary_max": 2100000}
+    ]
+  }
+  ]
+}
