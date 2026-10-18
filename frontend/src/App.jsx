@@ -1,18 +1,28 @@
+import { lazy, Suspense } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
-import { AnimatePresence } from 'framer-motion'
-import Landing from './pages/Landing'
-import Auth from './pages/Auth'
-import Dashboard from './pages/Dashboard'
-import SkillsPage from './pages/SkillsPage'
-import AnalysisPage from './pages/AnalysisPage'
-import CompaniesPage from './pages/CompaniesPage'
-import ProfilePage from './pages/ProfilePage'
 import ProtectedRoute from './components/ProtectedRoute'
 import AppLayout from './components/AppLayout'
 
+// Route-level code splitting keeps the initial bundle tiny.
+const Landing = lazy(() => import('./pages/Landing'))
+const Auth = lazy(() => import('./pages/Auth'))
+const Dashboard = lazy(() => import('./pages/Dashboard'))
+const SkillsPage = lazy(() => import('./pages/SkillsPage'))
+const AnalysisPage = lazy(() => import('./pages/AnalysisPage'))
+const CompaniesPage = lazy(() => import('./pages/CompaniesPage'))
+const ProfilePage = lazy(() => import('./pages/ProfilePage'))
+
+function Loading() {
+  return (
+    <div className="flex min-h-screen items-center justify-center">
+      <div className="h-10 w-10 animate-spin rounded-full border-2 border-neon-violet border-t-transparent" />
+    </div>
+  )
+}
+
 export default function App() {
   return (
-    <AnimatePresence mode="wait">
+    <Suspense fallback={<Loading />}>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Auth mode="login" />} />
@@ -35,6 +45,6 @@ export default function App() {
 
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-    </AnimatePresence>
+    </Suspense>
   )
 }
