@@ -96,11 +96,17 @@ npm run dev        # → http://localhost:5173 (proxies /api to :8000)
 ### 3️⃣ Private AI (optional but recommended)
 ```bash
 # Install Ollama: https://ollama.com/download
-ollama pull qwen2.5:3b      # fast on CPU (recommended)
-# or: ollama pull llama3.2:3b   /   ollama pull qwen2.5:7b (better, slower)
+ollama pull qwen2.5:1.5b     # recommended on CPU-only laptops (~1 GB, snappy)
+# or: ollama pull qwen2.5:3b  # better wording, ~2x slower on CPU
+# or: ollama pull qwen2.5:7b  # best quality, needs a GPU to be usable
 ```
 The app detects Ollama automatically and upgrades summaries, roadmaps, projects and
 interview prep to model-generated versions via the ✨ *Enhance with private AI* button.
+
+> **Measured on a CPU-only laptop** (i5-1334U, 16 GB, no GPU) with `qwen2.5:1.5b`:
+> ~30 tok/s generation; a full enhance call (summary + roadmap + projects + prep)
+> takes about 1–2 minutes. The first call is slower while the model loads into RAM.
+> Point `OLLAMA_MODEL` in `backend/.env` at whichever model you pull — no code changes.
 
 <details>
 <summary><strong>No admin rights? Use the portable build</strong></summary>
