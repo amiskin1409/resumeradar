@@ -1,5 +1,6 @@
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
+import LogoMark from './LogoMark'
 
 const links = [
   { to: '/app', label: 'Dashboard', icon: '◎', end: true },
@@ -9,12 +10,14 @@ const links = [
   { to: '/app/profile', label: 'Profile', icon: '☰' },
 ]
 
-export function Logo({ size = 'text-xl' }) {
+export function Logo({ size = 'text-xl', markSize = 'h-7 w-7' }) {
   return (
-    <span className={`font-display font-bold tracking-tight ${size}`}>
-      <span className="gradient-text">Resume</span>
-      <span className="text-slate-300">Radar</span>
-      <span className="ml-1 align-super text-xs text-neon-cyan">●</span>
+    <span className={`inline-flex items-center gap-2 font-display font-bold tracking-tight ${size}`}>
+      <LogoMark className={markSize} />
+      <span>
+        <span className="gradient-text">Resume</span>
+        <span className="text-slate-300">Radar</span>
+      </span>
     </span>
   )
 }

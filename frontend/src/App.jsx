@@ -6,6 +6,7 @@ import AppLayout from './components/AppLayout'
 // Route-level code splitting keeps the initial bundle tiny.
 const Landing = lazy(() => import('./pages/Landing'))
 const Auth = lazy(() => import('./pages/Auth'))
+const ProjectPage = lazy(() => import('./pages/ProjectPage'))
 const Dashboard = lazy(() => import('./pages/Dashboard'))
 const SkillsPage = lazy(() => import('./pages/SkillsPage'))
 const AnalysisPage = lazy(() => import('./pages/AnalysisPage'))
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Auth mode="login" />} />
         <Route path="/register" element={<Auth mode="register" />} />
+        <Route path="/project" element={<ProjectPage />} />
 
         <Route
           path="/app"
