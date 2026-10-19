@@ -87,6 +87,15 @@ body {
   to { transform: rotate(360deg); }
 }
 
+/* Energy pulse traveling along the landing-page spiral journey */
+.spiral-flow {
+  animation: spiral-flow 6.5s linear infinite;
+}
+@keyframes spiral-flow {
+  from { stroke-dashoffset: 1022; }
+  to { stroke-dashoffset: 0; }
+}
+
 .float-slow {
   animation: floaty 7s ease-in-out infinite;
 }
