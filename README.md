@@ -2,6 +2,7 @@
 
 # 📡 ResumeRadar  
 # This is my Mini project 
+# BIT Bangalore
 
 ### Find your gap. Close it. Get hired.
 
