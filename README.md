@@ -1,7 +1,7 @@
 <div align="center">
 
 # 📡 ResumeRadar  
-# This this my Mini project 
+# This is my Mini project 
 
 ### Find your gap. Close it. Get hired.
 
