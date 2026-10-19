@@ -57,6 +57,10 @@ class Resume(Base):
     detected_skills: Mapped[list] = mapped_column(JSON, default=list)
     detected_projects: Mapped[list] = mapped_column(JSON, default=list)
     uploaded_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    suggested_role: Mapped[str | None] = mapped_column(String(120), nullable=True)
+    critique: Mapped[str | None] = mapped_column(Text, nullable=True)
+    corrections: Mapped[list] = mapped_column(JSON, default=list)
+    highlights: Mapped[list] = mapped_column(JSON, default=list)
 
     user: Mapped["User"] = relationship(back_populates="resumes")
 

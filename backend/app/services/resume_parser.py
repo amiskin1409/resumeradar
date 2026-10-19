@@ -151,6 +151,47 @@ def extract_projects(text: str) -> list[str]:
     return cleaned[:12]
 
 
+# ---------- Role inference ----------
+
+_ROLE_KEYWORDS = {
+    "full stack developer": ["full stack", "mern", "mean", "node.js", "react", "django", "flask"],
+    "frontend developer": ["frontend", "react", "vue", "html", "css", "javascript", "typescript"],
+    "backend developer": ["backend", "api", "rest", "fastapi", "express", "spring", "django"],
+    "data analyst": ["data analyst", "sql", "excel", "power bi", "tableau", "analysis"],
+    "data scientist": ["data scientist", "machine learning", "ml", "pandas", "numpy"],
+    "devops engineer": ["devops", "docker", "kubernetes", "aws", "azure", "ci/cd"],
+    "machine learning engineer": ["machine learning", "ml", "deep learning", "pytorch", "tensorflow"],
+    "software engineer": ["software engineer", "software developer"],
+    "product manager": ["product manager", "product", "roadmap"],
+    "qa engineer": ["qa", "testing", "selenium", "pytest"],
+    "ui/ux designer": ["ui", "ux", "figma", "design"],
+    "cloud engineer": ["cloud", "aws", "azure", "gcp"],
+    "ai engineer": ["ai engineer", "llm", "langchain", "generative ai"],
+    "mobile app developer": ["mobile", "flutter", "react native", "android", "ios"],
+    "cybersecurity engineer": ["cybersecurity", "security", "ethical hacking"],
+}
+
+
+def infer_suggested_role(text: str) -> str | None:
+    if not text:
+        return None
+    tl = text.lower()
+    scores: dict[str, int] = {}
+    for role, keywords in _ROLE_KEYWORDS.items():
+        s = 0
+        for k in keywords:
+            if k in tl:
+                s += 2
+        # extra boost if title appears
+        if role in tl:
+            s += 3
+        if s:
+            scores[role] = s
+    if not scores:
+        return None
+    return max(scores, key=lambda k: scores[k])
+
+
 def analyze_resume_text(text: str) -> dict:
     """Full analysis of resume text: skills + projects + skills used in projects."""
     skills = detect_skills(text)
@@ -161,6 +202,7 @@ def analyze_resume_text(text: str) -> dict:
         "projects": projects,
         "project_skills": project_skills,
         "char_count": len(text),
+        "suggested_role": infer_suggested_role(text),
     }
 
 

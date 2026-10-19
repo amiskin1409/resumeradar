@@ -76,6 +76,10 @@ class ResumeOut(BaseModel):
     detected_skills: list
     detected_projects: list
     uploaded_at: datetime
+    suggested_role: str | None = None
+    critique: str | None = None
+    corrections: list[str] = []
+    highlights: list[str] = []
 
     model_config = {"from_attributes": True}
 

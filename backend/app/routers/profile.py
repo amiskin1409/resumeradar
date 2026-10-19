@@ -13,6 +13,7 @@ from ..models import Resume, User, UserSkill
 from ..schemas import ProfileUpdate, ResumeOut, SkillOut, SkillsUpdateRequest, UserOut
 from ..services.resume_parser import analyze_resume_text, extract_text_from_pdf
 from ..services.skills_taxonomy import normalize_skill
+from ..services.ai import ai_resume_critique
 
 router = APIRouter(prefix="/api", tags=["profile"])
 
@@ -114,12 +115,19 @@ async def upload_resume(
     safe_name = f"{uuid.uuid4().hex}.pdf"
     (UPLOAD_DIR / safe_name).write_bytes(content)
 
+    critique = ai_resume_critique(text)
+    suggested_role = critique.get("suggested_role") if critique else result.get("suggested_role")
+
     resume = Resume(
         user_id=user.id,
         filename=file.filename or safe_name,
         extracted_text=text,
         detected_skills=result["skills"],
         detected_projects=result["projects"],
+        suggested_role=suggested_role,
+        critique=critique.get("critique") if critique else None,
+        corrections=critique.get("corrections", []) if critique else [],
+        highlights=critique.get("highlights", []) if critique else [],
     )
     db.add(resume)
 

@@ -501,3 +501,24 @@ def ai_interview_prep(ctx: dict) -> list[dict] | None:
             continue
         out.append({"category": str(it.get("category", "General"))[:80], "item": str(it["item"])[:400]})
     return out or None
+
+
+def ai_resume_critique(text: str) -> dict | None:
+    if not text or len(text) < 200:
+        return None
+    prompt = (
+        "Analyze this resume text and give actionable critique, corrections, and highlights.\n"
+        f"Resume text (truncated): {text[:4000]}\n\n"
+        'Return JSON: {"suggested_role": "string or null", "critique": "short actionable summary", '
+        '"corrections": ["specific fix 1", "specific fix 2"], "highlights": ["strength 1", "strength 2"]}\n'
+        "Be honest, concise, India-focused relevance where applicable."
+    )
+    data = parse_json_object(ai_generate(prompt, system=_SYSTEM, json_mode=True))
+    if not isinstance(data, dict):
+        return None
+    return {
+        "suggested_role": (data.get("suggested_role") or "").strip() or None,
+        "critique": (data.get("critique") or "").strip(),
+        "corrections": [str(c).strip() for c in (data.get("corrections") or []) if str(c).strip()],
+        "highlights": [str(h).strip() for h in (data.get("highlights") or []) if str(h).strip()],
+    }
